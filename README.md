@@ -7,23 +7,23 @@ See KDoc and tests for more information.
 
 ## Dependency Specification
 
-The latest version of the library is 0.8, and it may be obtained from the Maven Central repository.
+The latest version of the library is 0.1.1, and it may be obtained from the Maven Central repository.
 
 ### Maven
 ```xml
     <dependency>
       <groupId>net.pwall.dom</groupId>
       <artifactId>dom-kotlin</artifactId>
-      <version>0.1</version>
+      <version>0.1.1</version>
     </dependency>
 ```
 ### Gradle
 ```groovy
-    implementation 'net.pwall.dom:dom-kotlin:0.1'
+    implementation 'net.pwall.dom:dom-kotlin:0.1.1'
 ```
 ### Gradle (kts)
 ```kotlin
-    implementation("net.pwall.dom:dom-kotlin:0.1")
+    implementation("net.pwall.dom:dom-kotlin:0.1.1")
 ```
 
 Peter Wall

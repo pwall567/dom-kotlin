@@ -5,7 +5,7 @@
 
   <groupId>net.pwall.dom</groupId>
   <artifactId>dom-kotlin</artifactId>
-  <version>0.1</version>
+  <version>0.1.1</version>
   <name>Dom access in Kotlin</name>
   <description>
     Kotlin classes to help with the use of the DOM
@@ -72,6 +72,8 @@
   </dependencies>
 
   <build>
+    <sourceDirectory>src/main/kotlin</sourceDirectory>
+    <testSourceDirectory>src/test/kotlin</testSourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.jetbrains.kotlin</groupId>
